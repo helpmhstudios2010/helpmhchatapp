@@ -55,18 +55,15 @@ function getData() {
 
               row = name_with_tag + message_with_tag + like_button + span_with_tag;
               chatContainer.innerHTML += row;
+              window. scrollTo(0, document. body. scrollHeight);
               // End code
           }
       });
-
-      
-    
   });
 }
 
 
 getData();
-pageScroll()
 
 
 function updatelike(message_id)

@@ -7,6 +7,7 @@ html, body
 body
 {
 background-image: linear-gradient(to right top, #f100c1, #9d25d9, #0c0ff0, #aa820a, #94004c);
+background-attachment: fixed;
 }
 
 .header
